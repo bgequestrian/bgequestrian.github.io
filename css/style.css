@@ -30,7 +30,7 @@ body,
 }
 
 .top-nav-collapse {
-    background-color: #2E2E2E;
+    background-color: #004d40;
 }
 
 
@@ -38,7 +38,7 @@ body,
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #2E2E2E;
+        background-color: #004d40;
     }
 }
 
@@ -46,5 +46,5 @@ body,
 /* Footer color for sake of consistency with Navbar */
 
 .page-footer {
-    background-color: #2E2E2E;
+    background-color: #004d40;
 }
