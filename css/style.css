@@ -6,6 +6,17 @@ body,
     height: 100%;
 }
 
+#services {
+    background-color: #654B31;
+    color: #FFFFFF;
+}
+
+#contact {
+    background-color: #DBD0BD;
+}
+
+.horseIcon {}
+
 
 /* Full Page Carousel itself*/
 
@@ -30,7 +41,7 @@ body,
 }
 
 .top-nav-collapse {
-    background-color: #004d40;
+    background-color: #0A2647;
 }
 
 
@@ -38,7 +49,7 @@ body,
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #004d40;
+        background-color: #0A2647;
     }
 }
 
@@ -46,5 +57,5 @@ body,
 /* Footer color for sake of consistency with Navbar */
 
 .page-footer {
-    background-color: #004d40;
+    background-color: #0A2647;
 }
