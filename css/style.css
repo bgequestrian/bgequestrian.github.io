@@ -1,9 +1,11 @@
-/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
-
 html,
 body,
 .view {
     height: 100%;
+}
+
+#about {
+    background-color: #FFFFFF;
 }
 
 #services {
@@ -11,26 +13,40 @@ body,
     color: #FFFFFF;
 }
 
+#horses {
+    background-color: #FFFFFF;
+}
+
 #contact {
     background-color: #DBD0BD;
 }
 
-.horseIcon {}
+.view.overlay {
+    height: 200px;
+}
 
+.card-body {
+    min-height: 420px;
+}
 
-/* Full Page Carousel itself*/
+html {
+    scroll-behavior: smooth;
+}
 
-.carousel {
+html,
+body,
+header,
+#intro {
+    background-color: #666666;
     height: 100%;
 }
 
-.carousel .carousel-inner {
-    height: 100%;
-}
-
-.carousel .carousel-inner .carousel-item,
-.carousel .carousel-inner .active {
-    height: 100%;
+#intro {
+    background: url("/img/photos/hero.PNG")no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 

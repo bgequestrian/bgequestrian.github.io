@@ -46,12 +46,12 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar top-nav-collapse">
         <div class="container">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-                <strong>LOGO</strong>
+            <a class="navbar-brand" href="#intro">
+                <i class="fas fa-horse-head fa-lg horseIcon"></i>
             </a>
 
             <!-- Collapse -->
@@ -64,22 +64,20 @@
 
                 <!-- Left -->
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">Horses</a>
+                        <a class="nav-link" href="#horses">Horses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
 
@@ -87,17 +85,17 @@
                 <ul class="navbar-nav nav-flex-icons">
                     <li class="nav-item">
                         <a href="https://www.facebook.com/EquistarServices/" class="nav-link" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f fa-lg"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.instagram.com/equistarbl/" class="nav-link" target="_blank">
-                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-instagram fa-lg"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="mailto: equistar@bigpond.com" class="nav-link border border-light rounded waves-effect waves-light" target="_blank">
-                            <i class="far fa-envelope mr-2"></i>Book a Lesson
+                            <i class="far fa-envelope mr-2"></i>Contact Bryony
                         </a>
                     </li>
                 </ul>
@@ -124,7 +122,6 @@
 
                         <!-- Description -->
                         <h4 class="white-text my-4">Dressage Competitor and Trainer</h4>
-                        <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button>
 
                     </div>
 
@@ -142,7 +139,7 @@
         <div>
 
             <!--Section: About Bryony-->
-            <section class="p-5 wow fadeIn">
+            <section id="about" class="p-5 wow fadeIn">
 
                 <!--Grid row-->
                 <div class="row" style="width: 100%;">
@@ -191,7 +188,7 @@
                                     <i class="fas fa-horse-head fa-2x horseIcon"></i>
                                 </div>
                                 <div class="col-10">
-                                    <h5 class="feature-title">Casual Training</h5>
+                                    <h5 class="feature-title"><strong>Casual Training</strong></h5>
                                     <p>Bryony is available to travel to your property to exercise/train your horse for short or long term engagements.</p>
                                     <p>Servicing areas: Southern Macedon Ranges (eg. Gisborne, Macedon, Romsey, Woodend), Sunbury, Oaklands and surrounds.</p>
                                 </div>
@@ -206,9 +203,8 @@
                                     <i class="fas fa-horse-head fa-2x horseIcon"></i>
                                 </div>
                                 <div class="col-10">
-                                    <h5 class="feature-title">In House Training</h5>
-                                    <p>Bryony has limited spaced available to take horse in for training at her home base in New Gisborne. Property includes private or shared paddock and all weather dressage arena.</p>
-                                    <p>Horses will receive regular training, daily supervision, feeding twice daily or as required. There are a number of young horses on my property so any horse that comes in for training must be sensible and good to handle.</p>
+                                    <h5 class="feature-title"><strong>In House Training</strong></h5>
+                                    <p>Bryony has limited spaced available to take horse in for training at her home base in New Gisborne.</p>
                                 </div>
                             </div>
                             <!--/Second row-->
@@ -221,10 +217,8 @@
                                     <i class="fas fa-horse-head fa-2x horseIcon"></i>
                                 </div>
                                 <div class="col-10">
-                                    <h5 class="feature-title">Competitions</h5>
-                                    <p>In addition to either of the above services Bryony is also available to campaign your horse in either the dressage or show ring.</p>
-                                    <p>Bryony regularly attends competitions and is available for full competition services including show prep if required.</p>
-                                    <p>Please contact Bryony for further information and rates on any of the above.</p>
+                                    <h5 class="feature-title"><strong>Competitions</strong></h5>
+                                    <p>Bryony regularly attends shows and competitions and is available to campaign your horse at one-off events for a full season.</p>
                                 </div>
                             </div>
                             <!--/Third row-->
@@ -240,10 +234,10 @@
             </div>
 
             <!--Section: Horses-->
-            <section class="p-5">
+            <section id="horses" class="p-5">
 
-                <h2 class="my-5 h3">Horses</h2>
-                <p>Bryony’s current team includes;</p>
+                <h2 class="my-5 h3 text-center">Horses</h2>
+                <p class="text-center"><strong>Bryony’s current team includes:</strong></p>
                 <!--First row-->
                 <div class="row features-small mb-5 mt-3 wow fadeIn">
                     <div class="col mb-4">
@@ -265,12 +259,10 @@
                                 <!--Title-->
                                 <h4 class="card-title">Carwyn Milani (Lani)</h4>
                                 <!--Text-->
-                                <p class="card-text">13.2hh, Welsh Cob</p>
-                                <ul>
-                                    <ol class="card-text">Competing Elementary/Medium.</ol>
-                                    <ol class="card-text">Lani is owned by Bryony’s mum, Dorothy, and when Bryony moved out of home, Lani stepped up as the golden child of the family. </ol>
-                                    <ol class="card-text">Lani turns heads wherever she goes, not only with her stunning good looks but with her quality paces, temperament and work ethic. </ol>
-                                </ul>
+                                <p class="card-text"><strong>13.2hh, Welsh Cob</strong></p>
+                                <p class="card-text"><strong>Competing Elementary/Medium.</strong></p>
+                                <p class="card-text">Lani is owned by Bryony’s mum, Dorothy, and when Bryony moved out of home, Lani stepped up as the golden child of the family.</p>
+                                <p class="card-text">Lani turns heads wherever she goes, not only with her stunning good looks but with her quality paces, temperament and work ethic.</p>
                             </div>
 
                         </div>
@@ -294,13 +286,10 @@
                                 <!--Title-->
                                 <h4 class="card-title">Flowervale Bollinger (Bolli)</h4>
                                 <!--Text-->
-                                <p class="card-text">16hh, Warmblood x Dutch RP</p>
-                                <ul>
-                                    <ol class="card-text">Young Horse</ol>
-                                    <ol class="card-text">Bolli is very clearly the ‘middle child’ of the family. He has the most adoring personality and loves having a chat with anyone who will talk to him… however he is also first to throw a tantrum if no one is talking
-                                        to him!</ol>
-                                    <ol class="card-text">Bolli is Bryony’s first young horse after a short period of down time (to focus on her Event Management career), and Bryony is looking forward to educating him up through the ranks.</ol>
-                                </ul>
+                                <p class="card-text"><strong>16hh, Warmblood x Dutch RP</strong></p>
+                                <p class="card-text"><strong>Young Horse</strong></p>
+                                <p class="card-text">Bolli is very clearly the ‘middle child’ of the family. He has the most adoring personality and loves having a chat with anyone who listen… however he is also first to throw a tantrum if no one is paying him attention.</p>
+                                <p class="card-text">Bryony is looking forward to training Bolli up through the levels.</p>
                             </div>
 
                         </div>
@@ -324,14 +313,10 @@
                                 <!--Title-->
                                 <h4 class="card-title">Lauries Gold (Alfie)</h4>
                                 <!--Text-->
-                                <p class="card-text">16.2hh (and growing)</p>
-                                <ul>
-                                    <ol class="card-text">Warmblood</ol>
-                                    <ol class="card-text">Unbroken</ol>
-                                    <ol class="card-text">Alfie is the clown the family, or as Dorothy may say the BFG (big friendly giant). He is fun loving, friendly and highly food motivated (will do anything for a carrot)</ol>
-                                    <ol class="card-text">Second to carrots, he also loves a daily ‘hoon’ around his paddock and chasing cats.</ol>
-                                    <ol class="card-text">Bryony is looking forward to getting Alfie broken in by the end of 2020 and is excited to see what the future holds for him.</ol>
-                                </ul>
+                                <p class="card-text"><strong>16.2hh (and growing), Warmblood</strong></p>
+                                <p class="card-text"><strong>Unbroken</strong></p>
+                                <p class="card-text">Alfie is the clown the family.  He is fun loving, friendly and highly food motivated (will do anything for a carrot). Second to carrots, he also loves a daily ‘hoon’ around his paddock and chasing cats.</p>
+                                <p class="card-text">Bryony is looking forward to getting Alfie broken in by the end of 2020 and is excited to see what the future holds for him.</p>
                             </div>
 
                         </div>
@@ -347,10 +332,9 @@
             <!--Section: Contact-->
             <section id="contact" class="p-5">
 
-                <h2 class="my-5 h3 text-center">Contact</h2>
-                <p class="text-center">To discuss your requirements with Bryony or make a booking email</p>
-                <p class="text-center"><a href="mailto: equistar@bigpond.com">equistar@bigpond.com</a> or call Bryony on
-                    <a href="tel:0425 499 477">0425 499 477</a></p>
+                <h2 class="pb-2 h3 text-center">Contact</h2>
+                <h5 class="text-center">To discuss your requirements with Bryony or make a booking email</p>
+                    <p class="text-center"><a href="mailto: equistar@bigpond.com">equistar@bigpond.com</a> or call <a href="tel:0425 499 477">0425 499 477</a></p>
 
             </section>
             <!--Section: Contact-->
@@ -360,11 +344,11 @@
     <!--Main layout-->
 
     <!--Footer-->
-    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <footer class="page-footer text-center font-small wow fadeIn">
 
         <!--Call to action-->
-        <div class="pt-4">
-            <p>You can follow Bryony and the Team’s journey on her social media</p>
+        <div class="p-4">
+            <p>You can follow Bryony’s journey on her social media</p>
             <a class="btn btn-outline-white" href="https://www.facebook.com/EquistarServices/" target="_blank" role="button">Facebook
                 <i class="fab fa-facebook-f ml-2"></i>
             </a>
@@ -373,13 +357,6 @@
             </a>
         </div>
         <!--/.Call to action-->
-
-        <!--Copyright-->
-        <div class="footer-copyright py-3">
-            © 2020 Copyright:
-            <a href="https://equistar.com.au/" target="_blank"> equistar.com.au </a>
-        </div>
-        <!--/.Copyright-->
 
     </footer>
     <!--/.Footer-->

@@ -4,21 +4,40 @@ body,
     height: 100%;
 }
 
+#about {
+    background-color: #FFFFFF;
+}
+
 #services {
     background-color: #654B31;
     color: #FFFFFF;
+}
+
+#horses {
+    background-color: #FFFFFF;
 }
 
 #contact {
     background-color: #DBD0BD;
 }
 
-.horseIcon {}
+.view.overlay {
+    height: 200px;
+}
+
+.card-body {
+    min-height: 420px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 html,
 body,
 header,
 #intro {
+    background-color: #666666;
     height: 100%;
 }
 
