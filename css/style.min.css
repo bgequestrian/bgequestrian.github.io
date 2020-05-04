@@ -21,19 +21,22 @@ body,
     background-color: #DBD0BD;
 }
 
-.view.overlay {
+
+/* .view.overlay {
     height: 200px;
+} */
+
+.flex-1 {
+    flex: 1;
 }
 
-.card-body {
-    min-height: 350px;
-}
 
+/* 
 .card-img-top {
     width: 100%;
-    height: 15vw;
+    height: 100%;
     object-fit: cover;
-}
+} */
 
 html {
     scroll-behavior: smooth;
